@@ -1,7 +1,7 @@
 dir="$1"
 git clone https://github.com/CivilianZero/scaffold.git $dir
 cd $dir
-echo "Input new git directory"
+echo "Input link to new git repository"
 read newgit
 git remote set-url origin $newgit
 git remote -v
